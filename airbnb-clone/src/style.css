@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(192, 197, 197);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 100vh;
+  margin: auto;
+  border: solid 1px rgb(197, 193, 193);
+  background-color: white;
+  border-radius: 10px; 
+}
+
+.navbar {
+  height: 70px;
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 82.02px;
+  height: 25.352px;
+  margin: 1.5em auto 1.7em 2.5em;
+}
