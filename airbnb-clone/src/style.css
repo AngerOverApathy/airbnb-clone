@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: rgb(192, 197, 197);
+  font-family: 'Poppins', sans-serif;
 }
 
 .page {
@@ -36,19 +37,49 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 .photogrid {
-  width: 75%;
-  margin: 50px 90px;
+  width: 70%;
+  height: 60%;
+  margin: 40px 90px 20px 85px;
 }
 
 .hero-header{
-  margin: 0px 0px 0px 70px;
-  font-size: 32px;
+  margin: 10px 0px 10px 40px;
+  font-size: 38px;
 }
 
 .hero-blurb {
-  margin: 10px 70px;
+  margin: 0px 250px 25px 40px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/* Expriences */
+.card {
+  margin: 40px 40px;
+}
+
+.katie {
+  width: 220px;
+  height: 285px;
+  border-radius: 9px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2px 0; 
+}
+
+.star {
+  height: 14px;
+  width: 14px;
+}
+
+.card-rating,
+.card-reviews {
+  margin: 0 2px; 
+  font-size: 13px;
 }
