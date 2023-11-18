@@ -11,9 +11,9 @@ export default function Card() {
                     <p className="card-rating">4.98</p>
                     <p className="card-reviews"> (56) · USA</p>
                 </div>
-            {/* <p className="card-blurb">Life Lessons With Katie Zaferes</p>
+            <p className="card-blurb">Life Lessons With Katie Zaferes</p>
             <p className="price"><b>From $136</b> / person</p>
         </div>
 
-    ) */}
+    )
 }
