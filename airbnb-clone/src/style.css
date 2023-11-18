@@ -18,8 +18,10 @@ body {
   border-radius: 10px; 
 }
 
+/* Header */
 .navbar {
   height: 70px;
+  display: flex;
   box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,4 +29,14 @@ body {
   width: 82.02px;
   height: 25.352px;
   margin: 1.5em auto 1.7em 2.5em;
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+}
+
+.photogrid {
+  width: 75%;
+  margin: 50px 90px;
 }
