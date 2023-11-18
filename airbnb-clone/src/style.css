@@ -83,3 +83,10 @@ body {
   margin: 0 2px; 
   font-size: 13px;
 }
+
+.card-blurb,
+.price {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
