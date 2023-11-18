@@ -33,10 +33,22 @@ body {
 
 /* Hero Section */
 .hero {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .photogrid {
   width: 75%;
   margin: 50px 90px;
+}
+
+.hero-header{
+  margin: 0px 0px 0px 70px;
+  font-size: 32px;
+}
+
+.hero-blurb {
+  margin: 10px 70px;
 }
