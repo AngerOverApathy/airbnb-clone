@@ -9,10 +9,10 @@ export default function Card(props) {
                     <img src={star} className="star" />
                     <p className="card-rating">{props.rating}</p>
                     <p className="card-reviews"> ({props.reviews}) · {props.country}</p>
-                {/* </div>
+                </div>
             <p className="card-blurb">{props.title}</p>
             <p className="price"><b>${props.price}</b> / person</p>
         </div>
 
-    ) */}
+    )
 }
