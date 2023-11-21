@@ -8,11 +8,11 @@ export default function Card(props) {
                 <div className="card-footer">
                     <img src={star} className="star" />
                     <p className="card-rating">{props.rating}</p>
-                    <p className="card-reviews"> {props.reviews} · {props.country}</p>
-                </div>
+                    <p className="card-reviews"> ({props.reviews}) · {props.country}</p>
+                {/* </div>
             <p className="card-blurb">{props.title}</p>
-            <p className="price"><b>{props.price}</b> / person</p>
-        </div>
+            <p className="price"><b>${props.price}</b> / person</p>
+        </div> */}
 
     )
 }
